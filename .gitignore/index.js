@@ -40,4 +40,4 @@ client.on("ready", () => {
     anniv();
 })
 
-client.login("ODIzMjc4NzQ4NTAxNTQwODY0.YFegFQ.xPX86OKP_UMrpJv2Tm-NF84zEzE")
+client.login(process.env.TOKEN);
