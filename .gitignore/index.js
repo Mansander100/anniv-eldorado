@@ -4,7 +4,7 @@ const client = new Discord.Client;
 
 
 let Anniversaire = [
-    ["Clément", 22, 3],
+    ["@Mansander", 22, 3],
     ["JPP", 23, 3]
    ];
 
