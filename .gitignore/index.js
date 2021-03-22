@@ -40,4 +40,4 @@ client.on("ready", () => {
     anniv();
 })
 
-client.login("ODIzMjc4NzQ4NTAxNTQwODY0.YFegFQ.ETkx1mD3KOBnkSw4JEF66TWBckE")
+client.login("ODIzMjc4NzQ4NTAxNTQwODY0.YFegFQ.06-7TSbmorhTK1Y81JDZcoT8bKA")
