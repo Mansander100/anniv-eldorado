@@ -1,5 +1,15 @@
 {
-    "name":"anniv_eldorado",
-    "version":"1.0.0",
-    "author":"Clément PAULINE"
+  "name": "anniv_eldorado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clément PAULINE",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
+
