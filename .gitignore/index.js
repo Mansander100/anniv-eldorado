@@ -30,8 +30,8 @@ client.on("ready", () => {
                 if (Anniversaire[i][2] == mm) {
 
                     //TODO envoyer le  message
-                    client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone, aujourd'hui c'est l'anniversaire de "+ Anniversaire[i][0]+" . Donc souhaitez lui tous un bonne anniversaire.");})
-
+                    client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
+                    client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][2]+"**");})
                 }
             }
         }
