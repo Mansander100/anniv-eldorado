@@ -5,7 +5,7 @@ const client = new Discord.Client;
 
 let Anniversaire = [
     ["@Mansander", 22, 3],
-    ["JPP", 23, 3]
+    ["JPP", 22, 3]
    ];
 
 
@@ -32,6 +32,9 @@ client.on("ready", () => {
                     //TODO envoyer le  message
                     client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
                     client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})
+                    if (i==0){
+                        client.channels.fetch('823370727952613387').then(channel => {channel.send("caca");})
+                    }
                 }
             }
         }
