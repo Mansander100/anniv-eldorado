@@ -31,7 +31,7 @@ client.on("ready", () => {
 
                     //TODO envoyer le  message
                     client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
-                    client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][2]+"**");})
+                    client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})
                 }
             }
         }
