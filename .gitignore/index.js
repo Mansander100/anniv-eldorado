@@ -28,12 +28,14 @@ client.on("ready", () => {
 
                 //verifie le mois
                 if (Anniversaire[i][2] == mm) {
-
-                    //TODO envoyer le  message
-                    client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
-                    client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})
-                    if (i==0){
-                        client.channels.fetch('823370727952613387').then(channel => {channel.send("caca");})
+                    switch (i) {
+                        case 0:
+                            client.channels.fetch('823370727952613387').then(channel => {channel.send("caca");})
+                        break;
+                            
+                        default:
+                            client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
+                            client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})                        
                     }
                 }
             }
