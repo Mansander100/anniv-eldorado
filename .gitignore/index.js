@@ -4,6 +4,8 @@ const client = new Discord.Client;
 
 
 let Anniversaire = [
+    ["Test", 25, 3],
+    
     ["Neogeekmo", 6, 1],
     ["Hercule", 8, 1],
     ["Foldo", 1, 2],
