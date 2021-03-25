@@ -4,8 +4,44 @@ const client = new Discord.Client;
 
 
 let Anniversaire = [
-    ["@Mansander", 22, 3],
-    ["JPP", 22, 3]
+    ["Neogeekmo", 6, 1],
+    ["Hercule", 8, 1],
+    ["Foldo", 1, 2],
+    ["Suffixe", 3, 2],
+    ["Grandgobelin", 11, 2],
+    ["klu", 12, 2],
+    ["Miredia", 18, 2],
+    ["Kaedei", 1, 3],
+    ["Gisèle", 1, 3],
+    ["Kungfouf", 1, 4],
+    ["Smøøthisha", 16, 4],
+    ["Cobra", 17, 4],
+    ["Gaetci", 3, 5],
+    ["Tropie", 11, 5],
+    ["Gingin", 11, 5],
+    ["Cheese", 22, 5],
+    ["Airmure", 28, 5],
+    ["Sanchodecuba", 6, 6],
+    ["Yaci", 17, 6],
+    ["Waikiky", 5, 7],
+    ["Laga", 3, 8],
+    ["Aruariang", 3, 8],
+    ["Doroff", 15, 8],
+    ["Cørn", 21, 8],
+    ["Mørtuary", 27, 8],
+    ["Rhapsodiie", 7, 9],
+    ["Deathstrokie", 10, 9],
+    ["Evarwen", 18, 9],
+    ["Azubal", 4, 10],
+    ["Drazz", 21, 10],
+    ["Sïgh", 10, 11],
+    ["Promethïa", 17, 11],
+    ["Buldozerk", 24, 11],
+    ["Antikas", 30, 11],
+    ["Blethron", 8, 12]
+    //********Pour chaque nouvelle anniversaire rentrer une nouvelle********//
+    //*******ligne juste au dessus sous le forme ["Pseudo",jour,mois]*******//
+    //*******puis rajouter une virgule a la fin de la ligne precedente******//
    ];
 
 
