@@ -3,9 +3,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client;
 
 
-let Anniversaire = [
-    ["Test", 25, 3],
-    
+let Anniversaire = [  
     ["Neogeekmo", 6, 1],
     ["Hercule", 8, 1],
     ["Foldo", 1, 2],
@@ -66,14 +64,8 @@ client.on("ready", () => {
 
                 //verifie le mois
                 if (Anniversaire[i][2] == mm) {
-                    switch (i) {
-                        case 0:
-                            client.channels.fetch('823370727952613387').then(channel => {channel.send("caca");})
-                        break;
-                            
-                        default:
-                            client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
-                            client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})                        
+                   client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
+                   client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})                        
                     }
                 }
             }
