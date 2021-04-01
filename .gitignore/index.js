@@ -57,7 +57,7 @@ client.on("ready", () => {
         let mm = date.getMonth() + 1;
         let aa = date.getFullYear();
         //Balaye tous le tableau
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < Anniversaire.length; i++) {
 
             //verifie le jour
             if (Anniversaire[i][1] == jj) {
@@ -65,9 +65,7 @@ client.on("ready", () => {
                 //verifie le mois
                 if (Anniversaire[i][2] == mm) {
                    client.channels.fetch('677646742841196567').then(channel => {channel.send("@everyone");})
-                   client.channels.fetch('677646742841196567').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})      
-                   client.channels.fetch('823370727952613387').then(channel => {channel.send("@everyone");})
-                   client.channels.fetch('823370727952613387').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})   
+                   client.channels.fetch('677646742841196567').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})         
                     
                 }
             }
