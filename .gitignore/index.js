@@ -13,7 +13,7 @@ let Anniversaire = [
     ["Miredia", 18, 2],
     ["Kaedei", 1, 3],
     ["Gisèle", 1, 3],
-    ["Kungfouf", 1, 4],
+    ["Petdenonne", 1, 4],
     ["Smøøthisha", 16, 4],
     ["Cobra", 17, 4],
     ["Gaetci", 3, 5],
