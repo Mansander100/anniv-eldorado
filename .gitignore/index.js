@@ -64,8 +64,15 @@ client.on("ready", () => {
 
                 //verifie le mois
                 if (Anniversaire[i][2] == mm) {
-                   client.channels.fetch('677646742841196567').then(channel => {channel.send("@everyone");})
-                   client.channels.fetch('677646742841196567').then(channel => {channel.send("Aujourd'hui c'est l'anniverssaire de **"+Anniversaire[i][0]+"**");})         
+                    switch(i){
+                        case 9 : 
+                            client.channels.fetch('677646742841196567').then(channel => {channel.send("@here Joyeux anniversaire au plus sexy des gros pandas : KUNGFOUF alias notre @Petdenonne :partying_face: !!!");})
+                            client.channels.fetch('677646742841196567').then(channel => {channel.send("Passes une excellente journée et fêtes ça bien :kissing_heart:  !!!");})   
+                            break;
+                        default : 
+                            client.channels.fetch('677646742841196567').then(channel => {channel.send("@here Joyeux anniversaire à "+Anniversaire[i][2]+" :partying_face: !!!");})
+                            client.channels.fetch('677646742841196567').then(channel => {channel.send("Passes une excellente journée et fêtes ça bien :kissing_heart:  !!!");})     
+                    }
                     
                 }
             }
