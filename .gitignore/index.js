@@ -4,12 +4,10 @@ const client = new Discord.Client;
 
 
 let Anniversaire = [  
-    ["Neogeekmo", 6, 1],
     ["Hercule", 8, 1],
     ["Foldo", 1, 2],
     ["Suffixe", 3, 2],
     ["Grandgobelin", 11, 2],
-    ["klu", 12, 2],
     ["Miredia", 18, 2],
     ["Kaedei", 1, 3],
     ["Gisèle", 1, 3],
@@ -17,8 +15,6 @@ let Anniversaire = [
     ["Smøøthisha", 16, 4],
     ["Cobra", 17, 4],
     ["Gaetci", 3, 5],
-    ["Tropie", 11, 5],
-    ["Gingin", 11, 5],
     ["Cheese", 22, 5],
     ["Airmure", 28, 5],
     ["Sanchodecuba", 6, 6],
@@ -65,7 +61,7 @@ client.on("ready", () => {
                 //verifie le mois
                 if (Anniversaire[i][2] == mm) {
                     switch(i){
-                        case 9 : 
+                        case 7 : 
                             client.channels.fetch('677646742841196567').then(channel => {channel.send("@here Joyeux anniversaire au plus sexy des gros pandas : KUNGFOUF alias notre @Petdenonne :partying_face: !!!");})
                             client.channels.fetch('677646742841196567').then(channel => {channel.send("Passes une excellente journée et fêtes ça bien :kissing_heart:  !!!");})   
                             break;
