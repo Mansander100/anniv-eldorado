@@ -66,7 +66,7 @@ client.on("ready", () => {
                             client.channels.fetch('677646742841196567').then(channel => {channel.send("Passes une excellente journée et fêtes ça bien :kissing_heart:  !!!");})   
                             break;
                         default : 
-                            client.channels.fetch('677646742841196567').then(channel => {channel.send("@here Joyeux anniversaire à "+Anniversaire[i][2]+" :partying_face: !!!");})
+                            client.channels.fetch('677646742841196567').then(channel => {channel.send("@here Joyeux anniversaire à "+Anniversaire[i][0]+" :partying_face: !!!");})
                             client.channels.fetch('677646742841196567').then(channel => {channel.send("Passes une excellente journée et fêtes ça bien :kissing_heart:  !!!");})     
                     }
                     
